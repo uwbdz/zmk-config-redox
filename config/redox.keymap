@@ -134,11 +134,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | UP |   RIGHT   |
 
             bindings = <
-&as TILDE GRAVE       &kp N1          &kp N2          &kp N3              &kp N4            &kp N5                                                                                                                     &kp N6                    &kp N7             &kp N8               &kp N9                   &kp N0               &kp BSPC
-&kp TAB               &kp Q           &kp W           &kp E               &kp R             &kp T             &kp HOME                                                               &kp PAGE_UP                       &kp Y                     &kp U              &kp I                &kp O                    &kp Q                &as PIPE BACKSLASH
-&kp CAPSLOCK          &kp A           &kp S           &kp D               &kp F             &kp G             &kp END                                                                &kp PAGE_DOWN                     &kp H                     &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L          &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
-&kp LEFT_SHIFT        &kp Z           &kp X           &kp C               &kp V             &kp B             &as LEFT_BRACE LEFT_BRACKET        &kp DEL  &kp B           &kp N                     &kp M              &kp COMMA                 &kp PERIOD        &kp SLASH             &kp RIGHT_SHIFT
-&kp LEFT_CONTROL      &kp LGUI        &kp LALT        &mo 3               &mo 2             &kp SPACE                   &kp ENTER                        &kp BSPC    &kp SPACE                          &mo 1                                 &kp LEFT_ARROW       &kp UP_ARROW             &kp DOWN_ARROW       &kp RIGHT_ARROW
+&as TILDE GRAVE       &kp N1          &kp N2          &kp N3              &kp N4            &kp N5            &trans                                                 &trans                            &kp N6                    &kp N7             &kp N8               &kp N9                   &kp N0               &kp BSPC
+&kp TAB               &kp Q           &kp W           &kp E               &kp R             &kp T             &kp HOME                                               &kp PAGE_UP                       &kp Y                     &kp U              &kp I                &kp O                    &kp Q                &as PIPE BACKSLASH
+&kp CAPSLOCK          &kp A           &kp S           &kp D               &kp F             &kp G             &kp END                                                &kp PAGE_DOWN                     &kp H                     &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L          &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
+&kp LEFT_SHIFT        &kp Z           &kp X           &kp C               &kp V             &kp B             &trans    &KP ESC             &kp DEL  &kp B           &kp N                     &kp M              &kp COMMA                 &kp PERIOD        &kp SLASH             &kp RIGHT_SHIFT
+&kp LEFT_CONTROL      &kp LGUI        &kp LALT        &mo 3                       &mo 2             &kp SPACE           &kp ENTER           &kp BSPC    &kp SPACE                          &mo 1                                 &kp LEFT_ARROW       &kp UP_ARROW             &kp DOWN_ARROW       &kp RIGHT_ARROW
             >;
 
             label = "Qwery";
@@ -153,7 +153,7 @@
             // | CRTL  | ALT | GUI | LOWER |     GUI     | LOWER | SPACE   | --- | DEL  |  0  |    RAISE  | LEFT | DOWN | UP  | RIGHT |
 
             bindings = <
-&dongle_bootload_macro  &trans        &trans        &trans            &trans          &trans                                             &trans                        &trans          &trans          &trans           &trans  &trans
+&dongle_bootload_macro  &trans        &trans        &trans            &trans          &trans             &trans                  &trans              &trans                        &trans          &trans          &trans           &trans  &trans
 &trans                  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP    &trans                  &trans  &kp C_BRIGHTNESS_INC          &kp HOME        &kp UP_ARROW    &kp END          &trans  &trans
 &trans                  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &trans                  &trans  &kp C_BRIGHTNESS_DEC          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans                  &trans        &out OUT_TOG  &kp END           &kp PAGE_DOWN   &kp K_MUTE         &trans  &trans  &trans  &trans  &trans                        &kp PAGE_UP     &trans          &kp PAGE_DOWN    &trans  &trans
@@ -172,7 +172,7 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |    RAISE    | LEFT | DOWN | UP    | RIGHT |
 
             bindings = <
-&trans  &trans      &trans    &trans    &trans    &trans                                          &trans             &trans     &trans     &trans    &trans     &trans
+&trans  &trans      &trans    &trans    &trans    &trans          &trans                  &trans  &trans             &trans     &trans     &trans    &trans     &trans
 &trans  &kp EXCL    &kp AT    &kp HASH  &kp DLLR  &kp PRCNT       &trans                  &trans  &kp CARET          &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR   &kp DEL
 &trans  &kp ESCAPE  &kp CAPS  &kp HOME  &kp END   &kp UNDERSCORE  &trans                  &trans  &kp MINUS          &kp PG_UP  &kp PSCRN  &kp UP    &kp GRAVE  &kp TILDE
 &trans  &kp DELETE  &kp LGUI  &kp LPAR  &kp RPAR  &kp TILDE       &trans  &trans  &trans  &trans  &kp GRAVE          &kp PG_DN  &kp LEFT   &kp DOWN  &kp RIGHT  &kp RET
@@ -191,7 +191,7 @@
             // | CRTL  | ALT   |  GUI     |   LOWER   |      GUI        | LOWER | SPACE   | --- | DEL  | SPACE |   RAISE   | LEFT | DOWN | UP  |   RIGHT    |
 
             bindings = <
-&kp F1  &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                                            &kp F7                     &kp F8           &kp F9             &kp F10        &kp F11        &kp F12
+&kp F1  &kp F2     &kp F3     &kp F4     &kp F5     &kp F6            &trans                  &trans  &kp F7                     &kp F8           &kp F9             &kp F10        &kp F11        &kp F12
 &trans  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5            &trans                  &trans  &kp N6                     &kp N7           &kp N8             &kp NUMBER_9   &kp N0         &out OUT_TOG
 &trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LEFT_BRACKET  &trans                  &trans  &kp RIGHT_BRACKET          &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
 &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LEFT_BRACE    &trans  &trans  &trans  &trans  &kp RIGHT_BRACE            &kp F13          &kp F14            &kp F15        &kp F16        &trans
@@ -203,7 +203,7 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans                                           &trans          &trans            &trans          &trans        &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans     &trans                        &trans  &trans          &trans            &trans          &trans        &trans  &trans
 &trans  &trans  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &trans     &trans                        &trans  &trans          &trans            &trans          &trans        &trans  &trans
 &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans                        &trans  &trans          &kp LS(LEFT_ALT)  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &trans
 &trans  &trans  &trans          &trans          &trans           &trans     &trans     &trans     &trans  &trans  &trans          &trans            &trans          &trans        &trans  &trans
@@ -215,7 +215,7 @@
 
         Flash {
             bindings = <
-&dongle_bootload_macro  &trans  &trans        &trans  &trans  &trans                                  &trans          &trans        &bt BT_PRV    &trans        &trans        &bt BT_CLR
+&dongle_bootload_macro  &trans  &trans        &trans  &trans  &trans  &trans                  &trans  &trans          &trans        &bt BT_PRV    &trans        &trans        &bt BT_CLR
 &trans                  &trans  &trans        &trans  &trans  &trans  &trans                  &trans  &trans          &trans        &bt BT_NXT    &trans        &trans        &trans
 &trans                  &trans  &trans        &trans  &trans  &trans  &trans                  &trans  &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans                  &trans  &out OUT_TOG  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans        &trans        &trans        &trans
