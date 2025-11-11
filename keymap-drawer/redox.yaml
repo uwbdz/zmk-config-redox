@@ -48,7 +48,7 @@ layers:
   - V
   - B
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&KP ESC'
+  - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
   - B
   - N
