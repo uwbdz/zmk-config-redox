@@ -6,7 +6,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config_ZMK_USB
+config ZMK_USB
     default y
 
 endif
