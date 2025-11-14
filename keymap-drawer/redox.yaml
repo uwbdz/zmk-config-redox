@@ -160,7 +160,7 @@ layers:
   - {t: /, s: '?'}
   - '*'
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -217,8 +217,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - {t: ., s: '>'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   Modify:
   - F1
   - F2
