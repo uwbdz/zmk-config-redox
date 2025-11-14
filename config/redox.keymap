@@ -104,11 +104,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |    RAISE    | LEFT | DOWN | UP    | RIGHT |
 
             bindings = <
-&trans  &trans  &trans   &trans   &trans   &trans  &trans                  &trans  &kp LCTRL          &kp LCTRL  &kp SLASH  &kp STAR  &kp MINUS  &kp LCTRL
+&trans  &trans  &trans   &trans   &trans   &trans  &trans                  &trans  &kp LCTRL          &kp LCTRL  &kp SLASH  &kp STAR  &kp MINUS  &kp BACKSPACE
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans                  &trans  &kp LCTRL          &kp N7     &kp N8     &kp N9    &kp PLUS   &kp LCTRL
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans                  &trans  &kp LCTRL          &kp N4     &kp N5     &kp N6    &kp PLUS   &kp LCTRL
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &kp LCTRL          &kp N1     &kp N2     &kp N3    &kp ENTER  &kp LCTRL
-&trans  &trans  &trans   &trans            &trans  &trans  &trans  &trans  &trans             &trans             &kp N0     &kp DOT   &kp LCTRL  &kp LCTRL
+&trans  &trans  &trans   &trans            &trans  &trans  &trans  &trans  &trans             &trans             &kp N0     &kp DOT   &kp ENTER  &kp ENTER
             >;
 
             label = "Symbol";
